@@ -46,4 +46,4 @@ colnames(filterSet) <- tolower(c(measurementNames, "Activity", "Subject"))
 #Create a tidy data set that contains theaverage of each variable for each activity and each subject.
 library(plyr)
 tidySet <- ddply(filterSet, c("subject","activity"), numcolwise(mean))
-write.table(tidySet, "tidySet.txt")
+write.table(tidySet, "tidySet.txt",row.names = FALSE)
