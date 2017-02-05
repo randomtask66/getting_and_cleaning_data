@@ -2,12 +2,6 @@ This codebook contains details of the variadtes in the tidySet.txt dataset
 
 1. subject - ID of the test subject
 2. activity- activity the subject as performing during testing
-* 1 = WALKING
-* 2 = WALKING_UPSTAIRS
-* 3 = WALKING_DOWNSTAIRS
-* 4 = SITTING
-* 5 = STANDING
-* 6 = LAYING
 3. tbodyaccmean()x
 4. tbodyaccmean()y
 5. tbodyaccmean()z
@@ -94,3 +88,11 @@ This codebook contains details of the variadtes in the tidySet.txt dataset
 86. angle(x,gravitymean)
 87. angle(y,gravitymean)
 88. angle(z,gravitymean)
+
+###Activity Labels
+* 1 = WALKING
+* 2 = WALKING_UPSTAIRS
+* 3 = WALKING_DOWNSTAIRS
+* 4 = SITTING
+* 5 = STANDING
+* 6 = LAYING
